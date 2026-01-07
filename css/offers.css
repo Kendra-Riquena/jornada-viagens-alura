@@ -32,6 +32,21 @@
     margin: 24px 0;
 }
 
+@media screen and (min-width:1024px) {
+    .card {
+    width: 588px;
+    height: 308x;
+    }
+
+    .card header h3 {
+    font-size: 48px;
+    }
+
+    .card header span {
+    font-size: 40px;
+    }
+}
+
 
 
 
