@@ -29,7 +29,9 @@
 .card header span {
     font-size: 32px;
     display: inline-block;
-    margin-top: 24px;
+    margin: 24px 0;
 }
+
+
 
 
