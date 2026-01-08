@@ -1,0 +1,71 @@
+.text-content {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 460px;
+    gap: 24px;
+
+}
+
+.colspan-2 {
+    grid-column: span 2;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.first {
+    background: url(../img/img-bag-mobile.jpg);
+    background-size: cover;
+}
+
+.second {
+    background: url(../img/img-passport-mobile.jpg);
+    background-size: cover;
+}
+
+.third {
+    background: url(../img/img-people-mobile.jpg);
+    background-size: cover;
+}
+
+@media screen and (min-width:768px) {
+    .first {
+    background: url(../img/img-bag-tablet.jpg);
+    background-size: cover;
+}
+
+.second {
+    background: url(../img/img-passport-tablet.jpg);
+    background-size: cover;
+}
+
+.third {
+    background: url(../img/img-people-tablet.jpg);
+    background-size: cover;
+}
+}
+
+@media screen and (min-width:1440px) {
+    .content-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+    
+    .text-content {
+        width: 360px;
+    }
+    
+    .image-gallery {
+        width: 790px;
+    }
+}
+
+
