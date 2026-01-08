@@ -4,8 +4,6 @@
     align-items: center;
     justify-content: center;
     gap: 24px;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .card {
@@ -16,13 +14,6 @@
     background-color: black;
     border-radius: 16px;
     text-align: center;
-}
-
-.card header {
-    display: block;
-    background-color: transparent;
-    padding: 0;
-    position: static;
 }
 
 .card header p {
