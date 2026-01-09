@@ -1,7 +1,15 @@
 .hero-img {
     height: 400px;
     width: 100%;
+}
+
+.hero-top {
     background: url(../img/hero-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-botton {
+    background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -15,9 +23,14 @@
 }
 
 @media screen and (min-width:768px) {
-    .hero-img {
+    .hero-top {
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-botton {
+        background: url(../img/banner-foto-cidade-litoranea-desktop.jpg) no-repeat;
         background-size: cover;
     }
 
@@ -28,10 +41,14 @@
 }
 
 @media screen and (min-width:1024px) {
-    .hero-img {
+    .hero-top {
         height: 620px;
         background: url(../img/hero-desktop.jpg) no-repeat;
         background-size: cover;
+    }
+
+    .hero-botton {
+        height: 600px;
     }
 
     .hero h2 {
