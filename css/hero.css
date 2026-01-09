@@ -9,15 +9,36 @@
     background-size: cover;
 }
 
+.blog-hero {
+    background: url(../img/banner-woman-hiking-mobile.jpg) no-repeat center;
+    background-size: cover;
+    height: 460px;
+}
+
 .hero-botton {
     background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
-.blog-hero {
-    background: url(../img/banner-woman-hiking-mobile.jpg) no-repeat center;
-    background-size: cover;
-    height: 460px;
+.main-title {
+    color: var(--text-secondary-color);
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main-title h1 {
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.main-title hr {
+    margin: 16px 0 32px;
+}
+
+.main-title h2 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
 }
 
 .hero h2 {
@@ -49,6 +70,13 @@
     .hero-botton {
         background: url(../img/banner-foto-cidade-litoranea-desktop.jpg) no-repeat;
         background-size: cover;
+    }
+
+    .main-title h2 {
+        font-size: 32px;
+        line-height: 50px;
+        font-weight: var(--text-weight);
+        max-width: 580px
     }
 
     .hero h2 {
