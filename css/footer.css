@@ -1,0 +1,74 @@
+.main-footer {
+    background-color: var(--background-tertiary-color);
+}
+
+.footer-img {
+    background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-content {
+    color: var(--text-secondary-color);
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: var(--text-weight);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px;
+}
+
+.footer-logo {
+    width: 162px;
+    height: 40px;
+    margin-bottom: 8px;
+}
+
+.footer-text {
+    margin-top: 8px;
+}
+
+.social-midia {
+    margin-top: 32px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.social-icons a {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (min-width:768px) {
+    .footer-img {
+    background: url(../img/banner-foto-cidade-litoranea-desktop.jpg) no-repeat;
+    background-size: cover;
+}
+}
+
+@media screen and (min-width:1440px) {
+    .footer-img {
+        height: 600px;
+    }
+
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-info {
+        text-align: left;
+    }
+}
+
