@@ -3,6 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Somos o Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis!"
+    />
+    <meta name="og:title" content="Jornada Viagens - Agência de Viagens" />
+    <meta
+      name="og:description"
+      content="Somos o Jornada Viagens, uma agência apaixonada por criar viagens inesquecíveis!"
+    />
+    <meta
+      name="og:image"
+      content="https://kendra-riquena.github.io/jornada-viagens-alura/img/logo-branca-jornada-viagens.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta
+      name="og:url"
+      content="https://kendra-riquena.github.io/jornada-viagens-alura/index.html"
+    />
     <link rel="icon" href="../img/bussola-logo-preta.png" />
     <link rel="stylesheet" href="../css/style.css" />
     <title>Jornada Viagens | Blog</title>
@@ -43,49 +61,80 @@
         </nav>
       </div>
     </header>
-    <section class="hero-img contact-hero">
-      <section class="main-title hero-title">
-        <h1>Entre em contato!</h1>
-        <hr />
-        <h2>
-          Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
-          plantão para ajudar você!
-        </h2>
+    <main>
+      <section class="hero-img contact-hero">
+        <section class="main-title hero-title">
+          <h1>Entre em contato!</h1>
+          <hr />
+          <h2>
+            Dúvidas, sugestões, problemas para resolver? Temos uma equipe de
+            plantão para ajudar você!
+          </h2>
+        </section>
       </section>
-    </section>
-    <section class="contact-form">
-      <div class="section-title">
-        <h2>Preencha o formulário:</h2>
-        <hr />
-      </div>
-      <p>
-        Temos uma equipe sempre em prontidão para resolver suas dúvidas,
-        problemas, trazer dicas e orientações objetivas para tornar sua
-        experiência o mais prazerosa e tranquila possível. Preencha seus dados
-        que vamos retornar seu contato conforme a urgência do seu chamado. Pode
-        confiar!
-      </p>
-      <div class="form-fields">
-        <form action="" method="get">
-          <input type="text" placeholder="Seu nome" name="name" required />
-          <div class="contacts-field">
-            <input type="tel" placeholder="Telefone" name="phone" required />
-            <input type="email" placeholder="Email" name="email" required />
-          </div>
-          <input type="text" placeholder="Assunto" name="subject" required />
-          <div>
-            <label for="message">Assunto</label>
-            <textarea name="message" id="message" required></textarea>
-          </div>
-          <div class="form-button">
-            <button class="button">Enviar!</button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <section class="hero">
-      <div class="hero-botton-contact hero-img"></div>
-    </section>
+      <section class="contact-form">
+        <div class="section-title">
+          <h2>Preencha o formulário:</h2>
+          <hr />
+        </div>
+        <p>
+          Temos uma equipe sempre em prontidão para resolver suas dúvidas,
+          problemas, trazer dicas e orientações objetivas para tornar sua
+          experiência o mais prazerosa e tranquila possível. Preencha seus dados
+          que vamos retornar seu contato conforme a urgência do seu chamado.
+          Pode confiar!
+        </p>
+        <div class="form-fields">
+          <form action="" method="get">
+            <input
+              type="text"
+              placeholder="Seu nome"
+              name="name"
+              required
+              aria-label="Seu Nome"
+            />
+            <div class="contacts-field">
+              <input
+                type="tel"
+                placeholder="Telefone"
+                name="phone"
+                required
+                aria-label="Seu telefone"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                required
+                aria-label="Seu email"
+              />
+            </div>
+            <input
+              type="text"
+              placeholder="Assunto"
+              name="subject"
+              required
+              aria-label="Assunto"
+            />
+            <div>
+              <label for="message">Assunto</label>
+              <textarea
+                name="message"
+                id="message"
+                required
+                aria-label="Mensagem"
+              ></textarea>
+            </div>
+            <div class="form-button">
+              <button class="button" title="Enviar formulário">Enviar!</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="hero">
+        <div class="hero-botton-contact hero-img"></div>
+      </section>
+    </main>
     <footer class="main-footer">
       <div class="footer-content">
         <div class="footer-info">
