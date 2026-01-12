@@ -26,6 +26,11 @@
     background-size: cover;
 }
 
+.hero-botton-destiny {
+    background: url(../img/destiny-banner-footer-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
 .main-title {
     color: var(--text-secondary-color);
     margin: 0 auto;
@@ -84,6 +89,11 @@
         background-size: cover;
     }
 
+    .hero-botton-destiny {
+        background: url(../img/destiny-banner-footer-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
     .main-title h2 {
         font-size: 32px;
         line-height: 50px;
@@ -118,6 +128,13 @@
     .hero-botton {
         height: 600px;
     }
+
+    .hero-botton-destiny {
+        background: url(../img/destiny-banner-footer-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+
 
     .hero h2 {
         padding: 88px 120px;
