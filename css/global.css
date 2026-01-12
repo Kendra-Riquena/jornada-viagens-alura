@@ -55,7 +55,8 @@ section.hero {
     text-align: center;
 }
 
-.section-title hr {
+.section-title hr,
+.main-title hr {
     width: 180px;
     height: 4px;
     background-color: var(--secondary-color);
@@ -88,6 +89,7 @@ section.hero {
     text-decoration: none;
     line-height: 64px;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (min-width:768px) {
@@ -102,6 +104,10 @@ section.hero {
     
     .section-title h2 {
         font-size: 32px;
+    }
+
+    .button {
+        width: 280px;
     }
 }
 

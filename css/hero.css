@@ -1,6 +1,7 @@
 .hero-img {
     height: 400px;
     width: 100%;
+    padding: 80px 0;
 }
 
 .hero-top {
@@ -8,9 +9,36 @@
     background-size: cover;
 }
 
+.blog-hero {
+    background: url(../img/banner-woman-hiking-mobile.jpg) no-repeat center;
+    background-size: cover;
+    height: 460px;
+}
+
 .hero-botton {
     background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat center;
     background-size: cover;
+}
+
+.main-title {
+    color: var(--text-secondary-color);
+    margin: 0 auto;
+    text-align: left;
+}
+
+.main-title h1 {
+    font-size: 48px;
+    font-weight: var(--title-weight);
+}
+
+.main-title hr {
+    margin: 16px 0 32px;
+}
+
+.main-title h2 {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: var(--text-weight);
 }
 
 .hero h2 {
@@ -23,10 +51,20 @@
 }
 
 @media screen and (min-width:768px) {
+    .hero-img {
+        padding: 160px 0;
+    }
+
     .hero-top {
         height: 620px;
         background: url(../img/hero-tablet.jpg) no-repeat;
         background-size: cover;
+    }
+    
+    .blog-hero {
+        background: url(../img/banner-woman-hiking-tablet.jpg) no-repeat center;
+        background-size: cover;
+        height: 620px;
     }
 
     .hero-botton {
@@ -34,10 +72,18 @@
         background-size: cover;
     }
 
+    .main-title h2 {
+        font-size: 32px;
+        line-height: 50px;
+        font-weight: var(--text-weight);
+        max-width: 580px
+    }
+
     .hero h2 {
         padding: 88px 60px;
         font-size: 32px;
     }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -45,6 +91,12 @@
         height: 620px;
         background: url(../img/hero-desktop.jpg) no-repeat;
         background-size: cover;
+    }
+
+    .blog-hero {
+        background: url(../img/banner-woman-hiking-desktop.jpg) no-repeat center;
+        background-size: cover;
+        height: 620px;
     }
 
     .hero-botton {
