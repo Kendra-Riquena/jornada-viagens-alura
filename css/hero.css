@@ -21,6 +21,12 @@
     height: 460px;
 }
 
+.contact-hero {
+    background: url(../img/contato-banner-mobile.jpg) no-repeat center;
+    background-size: cover;
+    height: 460px;
+}
+
 .hero-botton {
     background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat center;
     background-size: cover;
@@ -28,6 +34,11 @@
 
 .hero-botton-destiny {
     background: url(../img/destiny-banner-footer-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-botton-contact {
+    background: url(../img/contato-banner-footer-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -84,6 +95,12 @@
         height: 620px;
     }
 
+    .contact-hero {
+    background: url(../img/contato-banner-tablet.jpg) no-repeat center;
+    background-size: cover;
+    height: 620px;
+}
+
     .hero-botton {
         background: url(../img/banner-foto-cidade-litoranea-desktop.jpg) no-repeat;
         background-size: cover;
@@ -91,6 +108,11 @@
 
     .hero-botton-destiny {
         background: url(../img/destiny-banner-footer-tablet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-botton-contact {
+        background: url(../img/contato-banner-footer-tablet.jpg) no-repeat;
         background-size: cover;
     }
 
@@ -125,6 +147,11 @@
         background-size: cover;
     }
 
+    .contact-hero {
+    background: url(../img/contato-banner-desktop.jpg) no-repeat center;
+    background-size: cover;
+}
+
     .hero-botton {
         height: 600px;
     }
@@ -135,6 +162,11 @@
         height: 600px;
     }
 
+    .hero-botton-contact {
+        background: url(../img/contato-banner-footer-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
 
     .hero h2 {
         padding: 88px 120px;
