@@ -15,8 +15,19 @@
     height: 460px;
 }
 
+.destiny-hero {
+    background: url(../img/destiny-banner-mobile.jpg) no-repeat center;
+    background-size: cover;
+    height: 460px;
+}
+
 .hero-botton {
     background: url(../img/banner-foto-cidade-litoranea-mobile.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-botton-destiny {
+    background: url(../img/destiny-banner-footer-mobile.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -67,8 +78,19 @@
         height: 620px;
     }
 
+    .destiny-hero {
+        background: url(../img/destiny-banner-tablet.jpg) no-repeat center;
+        background-size: cover;
+        height: 620px;
+    }
+
     .hero-botton {
         background: url(../img/banner-foto-cidade-litoranea-desktop.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    .hero-botton-destiny {
+        background: url(../img/destiny-banner-footer-tablet.jpg) no-repeat;
         background-size: cover;
     }
 
@@ -96,12 +118,23 @@
     .blog-hero {
         background: url(../img/banner-woman-hiking-desktop.jpg) no-repeat center;
         background-size: cover;
-        height: 620px;
+    }
+
+    .destiny-hero {
+        background: url(../img/destiny-banner-desktop.jpg) no-repeat center;
+        background-size: cover;
     }
 
     .hero-botton {
         height: 600px;
     }
+
+    .hero-botton-destiny {
+        background: url(../img/destiny-banner-footer-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+
 
     .hero h2 {
         padding: 88px 120px;
