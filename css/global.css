@@ -89,6 +89,7 @@ section.hero {
     text-decoration: none;
     line-height: 64px;
     text-align: center;
+    width: 100%;
 }
 
 @media screen and (min-width:768px) {
@@ -103,6 +104,10 @@ section.hero {
     
     .section-title h2 {
         font-size: 32px;
+    }
+
+    .button {
+        width: 280px;
     }
 }
 
